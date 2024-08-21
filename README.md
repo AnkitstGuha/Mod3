@@ -30,20 +30,29 @@ The **KingAnkit** smart contract is an implementation of the ERC-20 token standa
 
 ```bash
    mkdir kingankit-token
+```
+```
    cd kingankit-token
+```
+```
    npx hardhat
-
+```
+```
 npm install @openzeppelin/contracts
+```
+```
 npx hardhat compile
 ```
 ### Rum
+```
 npx hardhat run scripts/deploy.js --network localhost
+```
 
 
 Contract Functions
-decimals(): Returns the number of decimal places for the token (2).
-balance(): Returns the balance of the caller's account.
-mint(address _toWallet, uint _numberOfTokens): Mints new tokens to the specified address.
-burn(uint _howMany): Burns a specified number of tokens from the caller's account.
-sendTo(address _toAccount, uint _howMany): Transfers tokens from the caller's account to the specified address.
-totalSupply(): Returns the total supply of the token.
+- decimals(): Returns the number of decimal places for the token (2).
+- balance(): Returns the balance of the caller's account.
+- mint(address _toWallet, uint _numberOfTokens): Mints new tokens to the specified address.
+- burn(uint _howMany): Burns a specified number of tokens from the caller's account.
+- sendTo(address _toAccount, uint _howMany): Transfers tokens from the caller's account to the specified address.
+- totalSupply(): Returns the total supply of the token.
