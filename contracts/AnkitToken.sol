@@ -4,7 +4,6 @@ pragma solidity 0.8.21;
 // The ERC-20 standard defines a set of rules that developers 
 // can follow to create their own tokens on the Ethereum Blockchain.
 
-
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
