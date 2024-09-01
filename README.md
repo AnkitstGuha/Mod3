@@ -1,4 +1,4 @@
-# Mod3
+# Mod
 
 # KingAnkit ERC-20 Token Contract
 
